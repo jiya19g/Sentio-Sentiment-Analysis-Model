@@ -55,5 +55,25 @@ To set up this project locally, follow these steps:
 ## About
 This app serves as a demonstration of basic NLP (Natural Language Processing) techniques for sentiment analysis. It combines different libraries like TextBlob and VADER to provide both a high-level and a token-level sentiment analysis.
 
+# what is Sentiment Analysis
+Sentiment analysis is a branch of Natural Language Processing (NLP) that focuses on identifying and classifying the sentiment expressed in text data. It determines whether the sentiment behind a piece of text is positive, negative, or neutral (or sometimes more granular emotions like joy, anger, sadness, etc.).
+
+How Sentiment Analysis Works
+Text Preprocessing:
+
+Remove noise (e.g., punctuation, special characters, stop words, etc.).
+Tokenization (breaking the text into smaller units like words or sentences).
+Lemmatization or stemming (reducing words to their base/root form).
+Feature Extraction:
+
+Bag of Words (BoW): Representing text data as a matrix of word occurrences.
+TF-IDF: Measures how important a word is in the text relative to the dataset.
+Word Embeddings: Representing words in a continuous vector space (e.g., Word2Vec, GloVe, BERT).
+Sentiment Detection:
+
+Rule-Based Systems: Uses predefined dictionaries of words with associated sentiments.
+Machine Learning Models: Supervised models trained on labeled datasets (e.g., Logistic Regression, SVM, Random Forest, or advanced neural networks).
+Deep Learning Models: Models like RNNs, LSTMs, or transformers (e.g., BERT) for contextual understanding.
+
 ## License
 This project is open source and available under the MIT License.
