@@ -17,6 +17,8 @@ This project is a simple sentiment analysis web application built with Streamlit
 - **VADER Sentiment**: For token-level sentiment analysis.
 - **Pandas**: For data manipulation and handling.
 - **Altair**: For visualizing sentiment data.
+- **Polarity**: It determines whether the input text is positive, negative, or neutral.
+- **Subjectivity** : It helps differentiate opinions from facts in the text. 
 
 ## Requirements
 - Python 3.x
